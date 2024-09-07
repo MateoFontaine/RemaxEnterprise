@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white ;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.header .navigation ul li{
+    float: left;
+    position: relative;
+}
+
+.header .navigation ul li a{
+    font-size: 18px;
+    color: gray !important;
+    text-decoration: none;
+    padding: 20px;
+    display: block ;
+    transition: all .2s ease;
+}
+.header .navigation ul li a:hover{
+    background-color: whitesmoke;
+}
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    display: none;
+}
+.header .navigation ul li ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navigation ul li ul li{
+    width: 100%;
+}
+.header .navigation ul li:hover > ul {
+    display: initial;
+}
+
+#toggle,
+.header label{
+    display: none;
+    cursor: pointer;
+}
+.menu{
+    width: 45px;
+    height: 35px;
+    color: gray;
+}
+
+@media(max-width: 1200px){
+    .header label{
+        display: initial;
+    }
+
+    .header{
+        padding: 20px 10%;
+    }
+    .header .navigation {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        display: none;
+    }
+    .header .navigation ul li{
+        width: 100%;
+        
+    }
+    .header .navigation ul li a{
+        padding: 8px 30px 8px 10%;
+    }
+    .header .navigation ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    .header .navigation ul li ul li{
+        background-color: whitesmoke;
+    }
+
+    #toggle:checked ~ .navigation{
+        display: block;
+    }
+
+}
+
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.residential{
+    background-color: #DE1827;
+    margin: 3rem;
+    border-radius: 10px;
+    padding: 3rem;
+}
+.AIRBNB{
+    background-color: #0039A8;
+    margin: 3rem;
+    border-radius: 10px;
+    padding: 3rem;
+}
+.acordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 1rem 0rem ;
+}
+
+/* Acordion */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.container h2 {
+    text-align: start;
+}
+
+.faqs .faq .head {
+    display: flex;
+    padding: 25px 0px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "Fahkwang", sans-serif;
+}
+
+.faqs .faq .head svg {
+    transition: transform 0.25s ease-in;
+}
+
+.faqs .faq .content {
+    height: 0px;
+    overflow-y: hidden;
+    transition: height 0.25s ease-in;
+    border-bottom: 1px solid #afafaf;
+}
+.espacio{
+    margin-bottom: 2rem;
+}
+/* Cuando esta activo */
+.faqs .faq.active .head svg {
+    transform: rotate(180deg);
+}
+
+.img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 80%;
+    margin: 4rem 0rem 1rem 0rem
+}
+.AIRBNB{
+    padding-bottom: 4rem !important;
+}
+
+@media only screen and (max-width: 765px) {
+    .PropertyManagment {
+        color: white;
+        margin: 2rem 10vw;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 65%;
+        padding-top: 50px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+}
