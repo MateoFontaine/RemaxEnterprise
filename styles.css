@@ -76,6 +76,10 @@ body{
     height: 35px;
     color: gray;
 }
+.menu.active {
+    display: block; /* O cualquier estilo que muestre el menú */
+}
+
 
 @media(max-width: 1200px){
     .header label{
