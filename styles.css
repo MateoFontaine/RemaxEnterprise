@@ -6,9 +6,12 @@
 }
 body{
     font-family: "Poppins", sans-serif;
-    background-color: white;
+    background-color: white !important;
     min-height: 100vh;
     box-sizing: border-box;
+}
+main{
+    background-color: white;
 }
 
 .header{
@@ -26,6 +29,7 @@ body{
 
 .logo img{
     width: 10rem;
+    margin-top: 1rem;
 }
 
 .navigation ul{
@@ -118,24 +122,33 @@ body{
     }
 
 }
-
-
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner img{
-    width: 100%;
+    margin-top: 2rem;
+    width: 80%;
     height: auto;
 }
 
 .residential{
-    background-color: #DE1827;
     margin: 3rem;
     border-radius: 10px;
-    padding: 3rem;
+    
+}
+.residentialImg{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.residentialImg img{
+    width: 40%;
 }
 .AIRBNB{
-    background-color: #0039A8;
     margin: 3rem;
     border-radius: 10px;
-    padding: 3rem;
 }
 .acordion{
     display: flex;
@@ -153,7 +166,7 @@ body{
     margin: auto;
     width: 80%;
     padding-top: 50px;
-    color: white;
+    color: black;
     padding-bottom: 1rem;
 }
 
@@ -200,22 +213,28 @@ h2 {
     width: 80%;
     margin: 4rem 0rem 1rem 0rem
 }
-.AIRBNB{
+.airbnb{
     padding-bottom: 4rem !important;
 }
 
 @media only screen and (max-width: 765px) {
-    .PropertyManagment {
-        color: white;
-        margin: 2rem 10vw;
-    }
     .container {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 65%;
+        justify-content: center;
+        align-items: start;
         padding-top: 50px;
-        color: white;
+        color: black !important;
         padding-bottom: 1rem;
+        width: 90%;
+    }
+    .residentialImg img{
+        width: 80%;
+    }
+    .banner img{
+        margin-top: 7rem;
+        width: 100%;
+        height: auto;
     }
 }
