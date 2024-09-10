@@ -25,6 +25,7 @@ main{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.425)
 }
 
 .logo img{
@@ -295,7 +296,7 @@ h2 {
 
       /* ================Other================= */
     .cardsOther{
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
     .card{
          display: flex;
