@@ -7,13 +7,13 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color: white !important;
-    min-height: 100vh;
     box-sizing: border-box;
 }
 main{
     background-color: white;
 }
 
+/* ============================Header================================= */
 .header{
     position: fixed;
     top: 0;
@@ -84,8 +84,9 @@ main{
     display: block; /* O cualquier estilo que muestre el menú */
 }
 
-
+/* ============================Vista Mobiles================================= */
 @media(max-width: 1200px){
+    /* ============================Header================================= */
     .header label{
         display: initial;
     }
@@ -122,19 +123,19 @@ main{
     }
 
 }
+
+/* ============================Banner================================= */
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .banner img{
-    margin-top: 2rem;
     width: 80%;
     height: auto;
 }
 
 .residential{
-    margin: 3rem;
     border-radius: 10px;
     
 }
@@ -147,7 +148,6 @@ main{
     width: 40%;
 }
 .AIRBNB{
-    margin: 3rem;
     border-radius: 10px;
 }
 .acordion{
@@ -159,13 +159,12 @@ main{
     margin: 1rem 0rem ;
 }
 
-/* Acordion */
+/* ============================Acordion================================= */
 .container {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 80%;
-    padding-top: 50px;
     color: black;
     padding-bottom: 1rem;
 }
@@ -224,17 +223,72 @@ h2 {
         margin: auto;
         justify-content: center;
         align-items: start;
-        padding-top: 50px;
         color: black !important;
         padding-bottom: 1rem;
+        padding-top: 1rem;
         width: 90%;
     }
     .residentialImg img{
         width: 80%;
     }
-    .banner img{
+    .banner .top{
         margin-top: 7rem;
         width: 100%;
         height: auto;
     }
+    .banner .down{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+    .principal {
+        width: 100%;
+        height: 90vh; /* Ajusta la altura de la imagen a un 60% de la altura de la ventana */
+        overflow: hidden;
+        margin-top: 6rem; /* Oculta el desbordamiento de la imagen */
+      }
+    
+    .principal img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* La imagen se recortará de los lados */
+      }
+
+      /* ===========Footer============== */
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        border-top: 1px solid rgba(134, 134, 134, 0.425)
+      }
+      .footerWidth{
+        width: 100%;
+      }
+      .footer{
+        display: flex;
+        justify-content: space-around;
+        gap: 4rem;
+        align-items: center;
+        padding: 2rem;
+      }
+      .logoFooter img{
+        width: 5rem;
+      }
+      .copyright{
+        color: gray;
+        font-size: .9rem;
+      }
+      .redes ul li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: .5rem;
+      }
+      .redes ul li a{
+        color: rgb(39, 39, 39);
+      }
+
+
 }
