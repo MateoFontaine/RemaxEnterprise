@@ -94,7 +94,7 @@ main{
     }
 
     .header{
-        padding: 20px 10%;
+        padding: 0px 10%;
     }
     .header .navigation {
         position: absolute;
@@ -237,7 +237,7 @@ h2 {
         width: 80%;
     }
     .banner .top{
-        margin-top: 7rem;
+        margin-top: 5rem;
         width: 100%;
         height: auto;
     }
@@ -250,7 +250,7 @@ h2 {
         width: 100%;
         height: 90vh; /* Ajusta la altura de la imagen a un 60% de la altura de la ventana */
         overflow: hidden;
-        margin-top: 6rem; /* Oculta el desbordamiento de la imagen */
+        margin-top: 5rem; /* Oculta el desbordamiento de la imagen */
       }
     
     .principal img {
@@ -297,7 +297,7 @@ h2 {
 
       /* ================Other================= */
     .cardsOther{
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
     .card{
          display: flex;
