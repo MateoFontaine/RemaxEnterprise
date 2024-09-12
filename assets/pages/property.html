@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../styles.css" />
     <title>RemaxEnterprise</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="logo">
           <a href="../../index.html"><img src="../img/remax.png" alt="Logo" /></a>
         </div>
@@ -27,7 +28,7 @@
             <li>
               <a href="#">Other Service</a>
               <ul>
-                <li><a href="other.html#property">Property Maintenance</a></li>
+                <li><a href="other.html">Property Maintenance</a></li>
                 <li><a href="other.html#strategic">Strategic Advice for Landlords</a></li>
                 <li><a href="other.html#other">Other Professional Services</a></li>
               </ul>
@@ -49,7 +50,7 @@
 <div id="residential"></div>
 <div class="acordion">
     <!-- Acordion 1 -->
-  <div class="container residential">
+  <div class="container residential" data-aos="fade-up">
     <h2>Residential Tenancies</h2>
     <div class="faqs">
       <div class="faq">
@@ -197,13 +198,13 @@
       </div>
     </div>
   </div>
-  <div class="banner" id="airbnb">
+  <div class="banner" id="airbnb" data-aos="fade-up">
     <img class="down" src="../img/Holiday.jpg" alt="" />
   </div>
 
-<div class="airbnb">
+<div class="airbnb" data-aos="fade-up">
        <!-- Acordion 2 -->
-  <div class="container AIRBNB">
+  <div class="container AIRBNB" data-aos="fade-up">
     <h2>Holiday Homes</h2>
     <div class="faqs">
       <div class="faq">
@@ -288,7 +289,7 @@
 </main>
 
 
-<footer>
+<footer data-aos="fade-up">
   <div class="footerWidth">
   <div class="footer">
     <div class="logoFooter">
@@ -334,7 +335,10 @@
 
 
 
-   
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 
     <script src="../../script.js"></script>
