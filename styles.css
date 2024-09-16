@@ -33,6 +33,10 @@ main{
     width: 10rem;
     margin-top: 1rem;
 }
+.navigation{
+    border-bottom: 1px solid rgba(134, 134, 134, 0.425);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 
 .navigation ul{
     list-style: none;
