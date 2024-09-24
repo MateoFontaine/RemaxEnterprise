@@ -342,5 +342,17 @@ h2 {
         margin-top: .6rem;
     }
 
+     /* ================Location================= */
+    .location{
+        margin: 6rem 2rem 2rem 2rem;
+    }
+    .locationText{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .locationText h2{
+        margin: .6rem 0rem;
+    }
 
 }
