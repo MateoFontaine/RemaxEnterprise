@@ -360,5 +360,36 @@ h2 {
             black 80%, transparent
         );
     }
+    /* ================Location================= */
+    .contact{
+        margin: 2rem 1rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .forms form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: .7rem;
+        gap: .8rem;
+    }
+    .forms form input{
+        border: 1px;
+        border-bottom: 1px solid black;
+    }
+    .botonContacto{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .btnContacto{
+        background-color: blue;
+        padding: .8rem;
+        color: white;
+        width: 30%;
+        border-radius: 10px;
+    }
+
 
 }
