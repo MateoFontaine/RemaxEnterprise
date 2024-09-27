@@ -355,6 +355,22 @@ h2 {
         margin: .6rem 0rem;
     }
 
+    /* ==================== About ==================== */
+    .about{
+        margin: 5rem 2rem 1rem 2rem;
+    }
+    .principalAbout {
+        width: 100%;
+        height: 80vh; /* Ajusta la altura de la imagen a un 60% de la altura de la ventana */
+        overflow: hidden;
+        margin-top: 0rem; /* Oculta el desbordamiento de la imagen */
+      }
+    
+    .principalAbout img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* La imagen se recortará de los lados */
+    }
     .aboutImg{
         mask-image: linear-gradient(
             black 80%, transparent
@@ -394,6 +410,8 @@ h2 {
         width: 30%;
         border-radius: 10px;
     }
-
+    .btnContacto :hover{
+        background-color: red;
+    }
 
 }
