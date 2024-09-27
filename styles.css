@@ -378,13 +378,17 @@ h2 {
         border: 1px;
         border-bottom: 1px solid black;
     }
+    .forms form textarea{
+        border: 1px;
+        border-bottom: 1px solid black;
+    }
     .botonContacto{
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
     .btnContacto{
-        background-color: blue;
+        background-color: #003DA5;
         padding: .8rem;
         color: white;
         width: 30%;
