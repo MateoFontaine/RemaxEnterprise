@@ -33,11 +33,6 @@ main{
     width: 10rem;
     margin-top: 1rem;
 }
-.navigation{
-    border-bottom: 1px solid rgba(134, 134, 134, 0.425);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
 .navigation ul{
     list-style: none;
 }
@@ -226,6 +221,10 @@ h2 {
 /* ================Other================= */
 
 @media only screen and (max-width: 765px) {
+    .navigation{
+        border-bottom: 1px solid rgba(134, 134, 134, 0.425);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -382,6 +381,238 @@ h2 {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         padding: 1rem;
         border-radius: 10px;
+    }
+    .forms form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: .7rem;
+        gap: .8rem;
+    }
+    .forms form input{
+        border: 1px;
+        border-bottom: 1px solid black;
+    }
+    .forms form textarea{
+        border: 1px;
+        border-bottom: 1px solid black;
+    }
+    .botonContacto{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .btnContacto{
+        background-color: #003DA5;
+        padding: .8rem;
+        color: white;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .btnContacto :hover{
+        background-color: red;
+    }
+
+}
+
+
+@media only screen and (min-width: 765px){
+    .residential{
+        width: 70% !important;
+    }
+    .AIRBNB{
+        width: 70% !important;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: start;
+        color: black !important;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        width: 90%;
+    }
+    .residentialImg img{
+        width: 80%;
+    }
+    .banner .top{
+        margin-top: 5rem;
+        width: 100%;
+        height: auto;
+    }
+    .banner .down{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+    .principal {
+        width: 100%;
+        height: 90vh; /* Ajusta la altura de la imagen a un 60% de la altura de la ventana */
+        overflow: hidden;
+        margin-top: 5rem; /* Oculta el desbordamiento de la imagen */
+      }
+    
+    .principal img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* La imagen se recortará de los lados */
+      }
+
+      /* ===========Footer============== */
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        border-top: 1px solid rgba(134, 134, 134, 0.425)
+      }
+      .footerWidth{
+        width: 100%;
+      }
+      .footer{
+        display: flex;
+        justify-content: space-around;
+        gap: 4rem;
+        align-items: center;
+        padding: 2rem;
+      }
+      .logoFooter img{
+        width: 5rem;
+      }
+      .copyright{
+        color: gray;
+        font-size: .9rem;
+      }
+      .redes ul li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: .5rem;
+      }
+      .redes ul li a{
+        color: rgb(39, 39, 39);
+      }
+
+      /* ================Other================= */
+    .cardsOther{
+        margin-top: 8rem;
+    }
+    .card{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row-reverse;
+         margin: 2rem 0rem;
+    }
+    .cardTwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 2rem 0rem;
+    }
+    .card img{
+        width: 40%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .card img::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        inset: 0;
+        position: absolute;
+        background: inherit;
+        filter: blur(40px)
+        saturate(400%);
+        z-index: -1;
+
+    }
+    .card .texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        margin-right: -3rem;
+        border-radius: 10px;
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .cardTwo .textoTwo{
+        margin-right:0;
+        margin-left: -3rem;
+    }
+    .card .texto p{
+        margin-top: .6rem;
+    }
+
+     /* ================Location================= */
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 15rem 2rem 15rem;
+        width: 180%;
+    }
+    .locationText{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .locationText h2{
+        margin: .6rem 0rem;
+    }
+
+    /* ==================== About ==================== */
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 2rem 1rem 2rem;
+    }
+    .AboutOrder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 10rem;
+    }
+    .principalAbout {
+        width: 100%;
+        height: 80vh; /* Ajusta la altura de la imagen a un 60% de la altura de la ventana */
+        overflow: hidden;
+        margin-top: 0rem; /* Oculta el desbordamiento de la imagen */
+      }
+    
+    .principalAbout img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* La imagen se recortará de los lados */
+    }
+    .aboutImg{
+        mask-image: linear-gradient(
+            black 80%, transparent
+        );
+    }
+    /* ================Location================= */
+    .contactPage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact{
+        margin: 2rem 10rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 50%;
     }
     .forms form{
         display: flex;
