@@ -354,6 +354,16 @@ h2 {
         margin: .6rem 0rem;
     }
 
+    .ubication{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+    }
+    .locationImg{
+        width: 100% !important;
+    }
+
     /* ==================== About ==================== */
     .about{
         margin: 5rem 2rem 1rem 2rem;
@@ -567,6 +577,13 @@ h2 {
     }
     .locationText h2{
         margin: .6rem 0rem;
+    }
+
+    .ubication{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 10rem;
     }
 
     /* ==================== About ==================== */
