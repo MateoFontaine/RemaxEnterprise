@@ -364,6 +364,9 @@ h2 {
         width: 100% !important;
     }
 
+    .desktop{
+        display: none;
+    }
     /* ==================== About ==================== */
     .about{
         margin: 5rem 2rem 1rem 2rem;
@@ -432,6 +435,10 @@ h2 {
     }
     .AIRBNB{
         width: 70% !important;
+    }
+    .mobile{
+        display: none;
+        width: 100%;
     }
     
     .container {
