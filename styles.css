@@ -440,7 +440,19 @@ h2 {
         display: none;
         width: 100%;
     }
-    
+
+    .principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .locationImg{
+        width: 80% !important; 
+    }
+
+    .contactImg{
+        width: 80% !important;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -457,11 +469,11 @@ h2 {
     }
     .banner .top{
         margin-top: 5rem;
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .banner .down{
-        width: 100%;
+        width: 80%;
         height: auto;
         margin-top: 1rem;
     }
