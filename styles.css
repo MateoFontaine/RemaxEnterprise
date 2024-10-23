@@ -395,6 +395,9 @@ h2 {
         padding: 1rem;
         border-radius: 10px;
     }
+    .forms{
+        width: 100%;
+    }
     .forms form{
         display: flex;
         justify-content: center;
@@ -425,6 +428,9 @@ h2 {
     .btnContacto :hover{
         background-color: red;
     }
+    .locationCard{
+        margin-top: 7rem;
+    }
 
 }
 
@@ -450,6 +456,9 @@ h2 {
         width: 80% !important; 
     }
 
+    .contactPage{
+        margin-top: 6rem;
+    }
     .contactImg{
         width: 80% !important;
     }
@@ -650,12 +659,16 @@ h2 {
         border-radius: 10px;
         width: 50%;
     }
+    .forms{
+        width: 100%;
+    }
     .forms form{
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-top: .7rem;
         gap: .8rem;
+        width: 100%;
     }
     .forms form input{
         border: 1px;
@@ -680,5 +693,7 @@ h2 {
     .btnContacto :hover{
         background-color: red;
     }
-
+    .locationCard{
+        margin-top: 7rem;
+    }
 }
