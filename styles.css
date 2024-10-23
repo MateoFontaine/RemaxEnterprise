@@ -431,7 +431,6 @@ h2 {
     .locationCard{
         margin-top: 7rem;
     }
-
 }
 
 
@@ -695,5 +694,20 @@ h2 {
     }
     .locationCard{
         margin-top: 7rem;
+    }
+    .separate{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        margin-right: 0rem !important;
+        border-radius: 10px;
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .union{
+        gap: 2rem;
     }
 }
