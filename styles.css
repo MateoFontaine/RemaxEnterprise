@@ -404,6 +404,7 @@ h2 {
         flex-direction: column;
         margin-top: .7rem;
         gap: .8rem;
+        width: 100%;
     }
     .forms form input{
         border: 1px;
@@ -709,5 +710,8 @@ h2 {
     }
     .union{
         gap: 2rem;
+    }
+    .space{
+        margin: 2rem !important;
     }
 }
